@@ -34,7 +34,7 @@ def button_detect(channel):
 GPIO.add_event_detect(BUTTON1, GPIO.FALLING, callback=button_detect, bouncetime = 150)
 
 
-# Logic that you write
+# main function
 def main():
     """ Code to turn the LED on and off with a 1 second delay
     GPIO.output(LED1,GPIO.HIGH)
